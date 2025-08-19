@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>StreetEats - Find Amazing Food Trucks Near You</title>
+    <meta name="description" content="Discover the best street food in your area. Built for passionate food truck entrepreneurs and hungry food lovers. Join our community today!" />
+    <meta name="keywords" content="food trucks, street food, mobile app, food discovery, local food" />
+    <style>
+        /* Include your full CSS styles here as previously provided */
+    </style>
+</head>
+<body>
+    <div class="bg-decoration">
+        <div class="floating-icons">
+            <div class="floating-icon">🚚</div>
+            <div class="floating-icon">🌮</div>
+            <div class="floating-icon">🍕</div>
+            <div class="floating-icon">🥪</div>
+            <div class="floating-icon">🍜</div>
+            <div class="floating-icon">📍</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <header class="header">
+                <div class="logo">
+                    <div class="logo-pin">
+                        <div class="logo-truck"></div>
+                    </div>
+                    <div class="logo-text">
+                        street<span class="logo-accent">eats</span>
+                    </div>
+                </div>
+                <div class="tagline">Where Passion Meets Plate</div>
+                <div class="hero-text">
+                    Discover amazing food trucks in your neighborhood.<br />
+                    Built by food lovers, for food lovers. 🚚❤️
+                </div>
+            </header>
+
+            <section class="action-section">
+                <div class="action-buttons">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSelWXubD_9dLwrG3HJ_4a0Eau47onqQF9G4kf5CKG_ik4B3SA/viewform?usp=sharing&ouid=112876828582050327979" class="action-btn btn-primary" id="google-form-btn" target="_blank" rel="noopener noreferrer">
+                        <span class="btn-icon">📝</span>
+                        <div>
+                            <div style="font-size: 12px; opacity: 0.9;">Join Our Community</div>
+                            <div>Get Early Access</div>
+                        </div>
+                    </a>
+                    <a href="https://apps.apple.com/search?term=streeteats" class="action-btn btn-app-store btn-ios coming-soon" target="_blank" rel="noopener noreferrer">
+                        <span class="btn-icon">🍎</span>
+                        <div>
+                            <div style="font-size: 12px; opacity: 0.8;">Coming Soon to</div>
+                            <div>App Store</div>
+                        </div>
+                    </a>
+                    <a href="https://play.google.com/store/search?q=streeteats" class="action-btn btn-app-store btn-android coming-soon" target="_blank" rel="noopener noreferrer">
+                        <span class="btn-icon">📱</span>
+                        <div>
+                            <div style="font-size: 12px; opacity: 0.8;">Coming Soon to</div>
+                            <div>Google Play</div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <section class="features">
+                <div class="section-title">Why StreetEats?</div>
+                <div class="features-grid">
+                    <div class="feature" onclick="toggleFeature(this)">
+                        <span class="feature-icon">🎯</span>
+                        <div class="feature-title">Get Found</div>
+                        <div class="feature-text">Connect with customers actively searching for great street food near them</div>
+                        <div class="feature-expanded">
+                            <div class="feature-detail">
+                                Smart location-based discovery helps food trucks reach hungry customers within their radius. No more guessing where to park - let data drive your decisions.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature" onclick="toggleFeature(this)">
+                        <span class="feature-icon">📱</span>
+                        <div class="feature-title">Built for You</div>
+                        <div class="feature-text">Designed with real food truck owners who understand the daily hustle and challenges</div>
+                        <div class="feature-expanded">
+                            <div class="feature-detail">
+                                Every feature was shaped by conversations with working food truck entrepreneurs. From menu management to customer communication - we get it.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature" onclick="toggleFeature(this)">
+                        <span class="feature-icon">🚀</span>
+                        <div class="feature-title">Grow Together</div>
+                        <div class="feature-text">Your feedback shapes our journey and builds better tools for the community</div>
+                        <div class="feature-expanded">
+                            <div class="feature-detail">
+                                This isn't just an app - it's a community-driven platform. Your suggestions become features that help all food truck entrepreneurs succeed together.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature" onclick="toggleFeature(this)">
+                        <span class="feature-icon">❤️</span>
+                        <div class="feature-title">Passion First</div>
+                        <div class="feature-text">Every great bite deserves to find the crowd it's meant for</div>
+                        <div class="feature-expanded">
+                            <div class="feature-detail">
+                                We believe in the power of passionate food entrepreneurs. StreetEats exists to amplify your unique flavors and connect them with people who'll become loyal fans.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="social-proof">
+                <div class="proof-stats">
+                    <div class="stat" title="Registered food trucks ready to launch">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Food Trucks</span>
+                    </div>
+                    <div class="stat" title="Food lovers on our waitlist">
+                        <span class="stat-number">15K+</span>
+                        <span class="stat-label">Hungry Fans</span>
+                    </div>
+                    <div class="stat" title="Cities requesting StreetEats">
+                        <span class="stat-number">50</span>
+                        <span class="stat-label">Cities</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        "Finally, someone who actually talks to food truck owners instead of just building what they think we need. Can't wait to see this launch!"
+                    </div>
+                    <div class="testimonial-author">
+                        - Maria Santos, Taco Dreams Food Truck
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="footer-text">
+                    Join thousands of passionate food entrepreneurs<br />
+                    already growing with StreetEats
+                </div>
+                <div class="footer-logo">
+                    <div class="footer-pin"></div>
+                    <div class="footer-text-logo">
+                        street<span style="color: #ff4444;">eats</span>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <a href="#privacy" class="footer-link">Privacy Policy</a>
+                    <a href="#terms" class="footer-link">Terms of Service</a>
+                    <a href="#contact" class="footer-link">Contact Us</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Privacy Policy Section -->
+    <section id="privacy" style="padding: 40px 20px; background: #1a365d; color: white; max-width: 480px; margin: 40px auto;">
+        <h2>Privacy Policy</h2>
+        <p>
+          We respect your privacy! If you join our community using our Google Form, your responses and email are stored securely by Google, and only accessed by the StreetEats team for community and launch updates.<br>
+          We do not sell, share, or use your information for any purpose other than to communicate about StreetEats.<br>
+          For details about how Google protects your information, <a href="https://policies.google.com/privacy" target="_blank">read Google’s Privacy Policy</a>.
+        </p>
+    </section>
+
+    <!-- Terms of Service Section -->
+    <section id="terms" style="padding: 40px 20px; background: #1a365d; color: white; max-width: 480px; margin: 40px auto;">
+        <h2>Terms of Service</h2>
+        <p>
+          By using this website or submitting information through our feedback form, you agree to use the site for its intended purpose: supporting the StreetEats food truck community.<br>
+          Content on this page is informational only and may be updated without notice.<br>
+          You agree not to misuse our website or submit spam or fraudulent responses.<br>
+          The StreetEats team reserves the right to remove inappropriate submissions and restrict access as necessary.
+        </p>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" style="padding: 40px 20px; background: #1a365d; color: white; max-width: 480px; margin: 40px auto;">
+        <h2>Contact Us</h2>
+        <p>
+          Have questions, feedback, or partnership ideas?<br>
+          Email: <a href="mailto:streeteats.dev@gmail.com">streeteats.dev@gmail.com</a> <br>
+          Or submit your message via our <a href="https://docs.google.com/forms/d/e/1FAIpQLSelWXubD_9dLwrG3HJ_4a0Eau47onqQF9G4kf5CKG_ik4B3SA/viewform?usp=sharing" target="_blank">Community Form</a>. <br>
+          You can also follow us on Instagram: <a href="https://instagram.com/yourhandle" target="_blank">@yourhandle</a>
+        </p>
+    </section>
+
+    <script>
+        // Feature expansion functionality
+        function toggleFeature(element) {
+            // Close all other features
+            document.querySelectorAll('.feature.active').forEach(feature => {
+                if (feature !== element) {
+                    feature.classList.remove('active');
+                }
+            });
+
+            // Toggle current feature
+            element.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
